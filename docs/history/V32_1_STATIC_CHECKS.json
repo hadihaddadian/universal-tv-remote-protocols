@@ -1,0 +1,8 @@
+{
+  "protocol_runtime_declarations": [
+    "app/src/main/java/com/haddadian/universalremote/connection/protocol/ProtocolRuntime.kt"
+  ],
+  "missing_consume_import": false,
+  "xml_errors": [],
+  "gradle_wrapper_jar_present": false
+}

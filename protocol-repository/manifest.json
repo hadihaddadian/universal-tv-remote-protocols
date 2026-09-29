@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "repository": "universal-tv-remote-protocols",
+  "generatedAt": "2026-09-21T14:57:24Z",
+  "protocols": [
+    {
+      "id": "androidtv-remote-v2",
+      "version": 1,
+      "status": "STABLE",
+      "minAppVersion": 24,
+      "manufacturer": "Android TV",
+      "platform": "androidtv",
+      "modelPatterns": [],
+      "supportedManufacturers": [
+        "Sony",
+        "TCL",
+        "Hisense",
+        "Philips",
+        "Xiaomi",
+        "Sharp",
+        "Skyworth"
+      ],
+      "discoveryHints": [
+        "_androidtvremote2._tcp",
+        "tcp:6466",
+        "tcp:6467"
+      ],
+      "transports": [
+        "ANDROID_TV_REMOTE_V2"
+      ],
+      "authMode": "android_tv_remote_v2_pairing",
+      "capabilities": [
+        "power",
+        "navigation",
+        "volume",
+        "mute",
+        "keyboard",
+        "app_launch",
+        "playback"
+      ],
+      "payloadSha256": "41e1877f4e1ee9276f04cbf124fa1507ada3fa605a79089471ad238137117889",
+      "sizeBytes": 1597,
+      "path": "protocols/androidtv-remote-v2/1.json"
+    },
+    {
+      "id": "lg-ssap",
+      "version": 1,
+      "status": "STABLE",
+      "minAppVersion": 24,
+      "manufacturer": "LG",
+      "platform": "webos",
+      "modelPatterns": [],
+      "supportedManufacturers": [],
+      "discoveryHints": [
+        "webos"
+      ],
+      "transports": [
+        "BRAND_PROTOCOL"
+      ],
+      "authMode": "protocol-managed-registration",
+      "capabilities": [
+        "power",
+        "volume",
+        "mute"
+      ],
+      "payloadSha256": "2731fcca377643831cbab78e796b8169bec6e0e672093981e781670f285b314c",
+      "sizeBytes": 833,
+      "path": "protocols/lg-ssap/1.json"
+    },
+    {
+      "id": "philips-jointspace",
+      "version": 1,
+      "status": "STABLE",
+      "minAppVersion": 24,
+      "manufacturer": "Philips",
+      "platform": "philips",
+      "modelPatterns": [],
+      "supportedManufacturers": [],
+      "discoveryHints": [
+        "jointspace"
+      ],
+      "transports": [
+        "BRAND_PROTOCOL"
+      ],
+      "authMode": "none",
+      "capabilities": [
+        "power",
+        "navigation",
+        "volume",
+        "mute"
+      ],
+      "payloadSha256": "c969294d4d6a5311d3817719e30b34bdbdbbf648340ff304500a4d003a05f17a",
+      "sizeBytes": 1187,
+      "path": "protocols/philips-jointspace/1.json"
+    },
+    {
+      "id": "roku-ecp",
+      "version": 1,
+      "status": "STABLE",
+      "minAppVersion": 24,
+      "manufacturer": "Roku",
+      "platform": "roku",
+      "modelPatterns": [],
+      "supportedManufacturers": [],
+      "discoveryHints": [
+        "roku:ecp"
+      ],
+      "transports": [
+        "BRAND_PROTOCOL"
+      ],
+      "authMode": "none",
+      "capabilities": [
+        "power",
+        "navigation",
+        "volume",
+        "mute"
+      ],
+      "payloadSha256": "4667c16bf7d9d3cdf5c24dca753186ac4591197c2ecd074ece0c67d38cb39db1",
+      "sizeBytes": 1171,
+      "path": "protocols/roku-ecp/1.json"
+    },
+    {
+      "id": "samsung-ws",
+      "version": 1,
+      "status": "STABLE",
+      "minAppVersion": 24,
+      "manufacturer": "Samsung",
+      "platform": "samsung",
+      "modelPatterns": [],
+      "supportedManufacturers": [],
+      "discoveryHints": [
+        "samsung"
+      ],
+      "transports": [
+        "BRAND_PROTOCOL"
+      ],
+      "authMode": "protocol-managed",
+      "capabilities": [
+        "power",
+        "navigation",
+        "volume",
+        "mute"
+      ],
+      "payloadSha256": "74f56479a2ef35137fc627000557d1dafc923314dabb4f977cf6c5f76239d599",
+      "sizeBytes": 1191,
+      "path": "protocols/samsung-ws/1.json"
+    },
+    {
+      "id": "sony-ircc",
+      "version": 1,
+      "status": "STABLE",
+      "minAppVersion": 24,
+      "manufacturer": "Sony",
+      "platform": "sony",
+      "modelPatterns": [],
+      "supportedManufacturers": [],
+      "discoveryHints": [
+        "sony"
+      ],
+      "transports": [
+        "BRAND_PROTOCOL"
+      ],
+      "authMode": "psk",
+      "capabilities": [
+        "power",
+        "navigation",
+        "volume",
+        "mute"
+      ],
+      "payloadSha256": "b603dc76907a309f8c60a07be6edf080acfafdafebc2484d4f30542d029d40fa",
+      "sizeBytes": 1164,
+      "path": "protocols/sony-ircc/1.json"
+    }
+  ]
+}

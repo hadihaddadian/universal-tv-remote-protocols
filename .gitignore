@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+/build/
+*/build/
+local.properties
+protocol-repository/private/
+tools/keys/*.pem
+tools/keys/*.der
+tools/keys/*.key
+
+__pycache__/
+*.pyc

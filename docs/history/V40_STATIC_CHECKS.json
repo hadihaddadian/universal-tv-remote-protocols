@@ -1,0 +1,12 @@
+{
+  "tvcommand_refs": [
+    "app/src/test/java/com/haddadian/universalremote/ai/AiParserTest.kt",
+    "app/src/main/java/com/haddadian/universalremote/ai/AiCommandEngine.kt",
+    "app/src/main/java/com/haddadian/universalremote/ai/AiTvCommandEngine.kt",
+    "app/src/main/java/com/haddadian/universalremote/ai/OfflineTvCommandParser.kt"
+  ],
+  "root_static_json": false,
+  "wrapper_jar": false,
+  "zip_integrity": "OK",
+  "sha256": "aa84fc2e2bdefb9151ad7881e1fc732239e4ab72104e2cce453d162f26a45f6d"
+}

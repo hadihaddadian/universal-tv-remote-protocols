@@ -1,0 +1,14 @@
+# Official protocol distribution service
+# Leave both values empty to disable remote protocol updates.
+protocolRepositoryUrl=
+# Production builds MUST set this to the base64 DER-encoded ECDSA P-256 public key
+# corresponding to the private signing key used by the protocol repository.
+# Never reuse the development key for a production deployment.
+protocolRepositoryPublicKey=
+
+# Optional release APK signing. Keep secrets out of source control.
+# Supply all four properties for a signed release build.
+releaseStoreFile=
+releaseStorePassword=
+releaseKeyAlias=
+releaseKeyPassword=

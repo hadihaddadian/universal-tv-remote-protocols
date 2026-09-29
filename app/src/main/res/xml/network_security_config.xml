@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cleartext is required by several legacy/local-TV protocols. Android's
+  Network Security Config cannot express arbitrary RFC1918 IP/CIDR allowlists;
+  therefore transport-level destination restriction is enforced by
+  TvTransportPolicy + LocalTvHttpInterceptor. This file makes the policy
+  explicit rather than relying on an implicit platform default.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
